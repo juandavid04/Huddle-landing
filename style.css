@@ -110,4 +110,5 @@
         border: hsl(300, 69%, 71%) 1px solid;
     }
     #iconos{padding-top: 5em;}
+    a{text-decoration: none;}
 }
