@@ -1,0 +1,113 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    text-align: end;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+@media (min-width: 376px) {
+    body {
+        width: 80em;
+        margin: auto;
+        margin-top: 2.5em;
+        margin-left: 10em;
+        background-image: url('images/bg-desktop.svg');
+        background-color: hsl(257, 40%, 49%);
+        color: white;
+        font-family: 'Poppins', sans-serif;;
+      }
+      h2{font-size: 2em;}
+      p{font-family: sans-serif;}
+      #img {
+        width: 35em;
+        margin-right: 3em;
+        height: 20em;
+      }
+      #texto {
+        width: 27em;
+        padding: 1.5em;
+        height: 25em;
+      }
+      #img,#texto {float: left;}
+      #imagen {
+        width: 35em;
+        object-fit: contain;
+      }
+      #logo{
+        width: 10em;
+        object-fit: contain;
+      }
+      #divlogo{margin-bottom: 3.5em;}
+      #Register{
+        width: 12em;
+        height: 3.5em;
+        border: none;
+        border-radius: 2em;
+        background-color: white;
+      }
+      #Register:hover{
+        background-color: hsl(300, 69%, 71%);
+        color: white;
+      }
+      i{
+        height: 15px;
+        border: white 1px solid;
+        border-radius: 30px;
+        padding: 10px;
+      }
+      i:hover{
+        color: hsl(300, 69%, 71%);
+        border: hsl(300, 69%, 71%) 1px solid;
+      }
+      #iconos{text-align: end; padding-top: 5em;}
+      a{
+        color: hsl(300, 69%, 71%);
+        text-decoration: none;
+      }
+}
+
+@media (max-width: 375px){
+    body{
+        width: 18em;
+        margin: auto;
+        margin-top: 2em;
+        background-color: hsl(257, 40%, 49%);
+        background-image: url("images/bg-mobile.svg");
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    #logo{
+        width: 8em;
+        object-fit: contain;
+        margin-bottom: 3.5em;
+    }
+    #imagen{
+        width: 18em;
+        object-fit: contain;
+    }
+    #texto{text-align: center;}
+    #Register{
+        width: 12em;
+        height: 3.5em;
+        border: none;
+        border-radius: 2em;
+        background-color: white;
+      }
+    #Register:hover{
+        background-color: hsl(300, 69%, 71%);
+        color: white;
+    }
+    i{
+        height: 15px;
+        border: white 1px solid;
+        border-radius: 30px;
+        padding: 10px;
+      }
+    i:hover{
+        color: hsl(300, 69%, 71%);
+        border: hsl(300, 69%, 71%) 1px solid;
+    }
+    #iconos{padding-top: 5em;}
+}
